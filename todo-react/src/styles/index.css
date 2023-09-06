@@ -40,6 +40,10 @@ nav{
     align-items: center;
 }
 
+.fa-bars{
+    display: none;
+}
+
 .logo{
     color: #000;
 }
@@ -71,53 +75,6 @@ nav{
 .mainImg{
     margin-top: 5px;
     width: 100%;
-}
-
-/*main*/
-
-main{
-    width: 80%;
-    margin: 0 auto;
-}
-
-main h1{
-    font-size: 24px;
-    margin: 27px 0 20px;
-}
-
-/*cards*/
-
-.card-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.card{
-    padding: 7px;
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.10);
-}
-
-/*card > card-body*/
-
-.card-body p{
-    margin-bottom: 10px;
-}
-
-.price{
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.title{
-    font-size: 14px;
-}
-
-.location,
-.date{
-    font-size: 10px;
-    color: rgba(0, 0, 0, 0.50);
 }
 
 /*search*/
@@ -155,4 +112,31 @@ main h1{
     padding: 4px 24px;
     border-radius: 5px;
     margin-top: 105px;
+}
+
+/*footer*/
+
+footer{
+    background-color: #2D363C;
+    margin-top: 100px;
+}
+
+.footer-container{
+    width: 80%;
+    height: 75px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link-item{
+    color: #fff;
+    transition: ease 0.5s;
+    margin-right: 10px;
+}
+
+.footer-link-item:hover{
+    color: red;
 }
