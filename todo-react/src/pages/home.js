@@ -5,7 +5,7 @@ import rentalCardimg from '../assets/rentalcard.svg';
 import searchImg from '../assets/search-img.svg';
 import { useNavigate } from "react-router-dom";
 import '../styles/index.css';
-import '../styles/responsive.css';
+
 
 export const Home = () => {
 
@@ -21,21 +21,21 @@ export const Home = () => {
             <div className="navbar">
                 <nav>
                     <div className='logo-container'>
-                    <i onClick={click} class="fa-solid fa-bars"></i>
-                    <img src={logo} alt="" />
-                    <a href="#" className="logo"><b>fast</b>home</a>
+                        <i onClick={click} class="fa-solid fa-bars bars"></i>
+                        <img src={logo} alt="" />
+                        <a href="#" className="logo"><b>fast</b>Product</a>
                     </div>
 
                     <ul className="nav-links">
-                    <li className="nav-link-item">For Sale</li>
-                    <li className="nav-link-item">For Rent</li>
-                    <li className="nav-link-item">Daily Rental</li>
+                    <li className="nav-link-item">Home</li>
+                    <li className="nav-link-item">About</li>
+                    <li className="nav-link-item">Contact</li>
                     <li className="nav-link-item">Projects</li>
                     </ul>
                 </nav>
 
                 <div className="profile">
-                    <a href="" onClick={place}>Advertise</a>
+                    <a href="" onClick={place}>Products</a>
                 </div>
             </div>
             {/* big image after navbar */}
@@ -47,11 +47,11 @@ export const Home = () => {
             <div className="card-container">
                 <div className="card">
                     <div className="card-header">
-                        <img src={salesCardimg} alt="" />
+                        <img src={'	https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg'} alt="" />
                     </div>
                     <div className="card-body">
                         <p className='price'>290.000 $</p>
-                        <p className='title'>Apartment for sale</p>
+                        <p className='title'>Product for sale</p>
                         <p className='location'>London, Oxford St.</p>
                         <p className='date'>26 November 2020</p>
                     </div>
@@ -59,11 +59,11 @@ export const Home = () => {
 
                 <div className="card">
                     <div className="card-header">
-                        <img src={salesCardimg} alt="" />
+                        <img src={'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg'} alt="" />
                     </div>
                     <div className="card-body">
                         <p className='price'>290.000 $</p>
-                        <p className='title'>Apartment for sale</p>
+                        <p className='title'>Product for sale</p>
                         <p className='location'>London, Oxford St.</p>
                         <p className='date'>26 November 2020</p>
                     </div>
@@ -71,11 +71,11 @@ export const Home = () => {
 
                 <div className="card">
                     <div className="card-header">
-                        <img src={salesCardimg} alt="" />
+                        <img src={'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg'} alt="" />
                     </div>
                     <div className="card-body">
                         <p className='price'>290.000 $</p>
-                        <p className='title'>Apartment for sale</p>
+                        <p className='title'>Product for sale</p>
                         <p className='location'>London, Oxford St.</p>
                         <p className='date'>26 November 2020</p>
                     </div>
@@ -83,11 +83,11 @@ export const Home = () => {
 
                 <div className="card">
                     <div className="card-header">
-                        <img src={salesCardimg} alt="" />
+                        <img src={'https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg'} alt="" />
                     </div>
                     <div className="card-body">
                         <p className='price'>290.000 $</p>
-                        <p className='title'>Apartment for sale</p>
+                        <p className='title'>Product for sale</p>
                         <p className='location'>London, Oxford St.</p>
                         <p className='date'>26 November 2020</p>
                     </div>
@@ -98,11 +98,11 @@ export const Home = () => {
             <div className="card-container">
                 <div className="card">
                     <div className="card-header">
-                        <img src={rentalCardimg} alt="" />
+                        <img src={'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg'} alt="" />
                     </div>
                         <div className="card-body">
                         <p className='price'>3.000 $</p>
-                        <p className='title'>Apartment for rent</p>
+                        <p className='title'>Product for rent</p>
                         <p className="location">London, John Ruskin St.</p>
                         <p className='date'>20 November 2020</p>
                     </div>
@@ -110,11 +110,11 @@ export const Home = () => {
 
                 <div className="card">
                     <div className="card-header">
-                        <img src={rentalCardimg} alt="" />
+                        <img src={'https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg'} alt="" />
                     </div>
                         <div className="card-body">
                         <p className='price'>3.000 $</p>
-                        <p className='title'>Apartment for rent</p>
+                        <p className='title'>Product for rent</p>
                         <p className="location">London, John Ruskin St.</p>
                         <p className='date'>20 November 2020</p>
                     </div>
@@ -122,11 +122,11 @@ export const Home = () => {
 
                 <div className="card">
                     <div className="card-header">
-                        <img src={rentalCardimg} alt="" />
+                        <img src={'https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg'} alt="" />
                     </div>
                         <div className="card-body">
                         <p className='price'>3.000 $</p>
-                        <p className='title'>Apartment for rent</p>
+                        <p className='title'>Product for rent</p>
                         <p className="location">London, John Ruskin St.</p>
                         <p className='date'>20 November 2020</p>
                     </div>
@@ -134,11 +134,11 @@ export const Home = () => {
 
                 <div className="card">
                     <div className="card-header">
-                        <img src={rentalCardimg} alt="" />
+                        <img src={'	https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg'} alt="" />
                     </div>
                         <div className="card-body">
                         <p className='price'>3.000 $</p>
-                        <p className='title'>Apartment for rent</p>
+                        <p className='title'>Product for rent</p>
                         <p className="location">London, John Ruskin St.</p>
                         <p className='date'>20 November 2020</p>
                     </div>
@@ -151,7 +151,7 @@ export const Home = () => {
                 <div className="content">
                     <h2 className="content-header">Search Your Product</h2>
                     <p className="content-text">Find the product you are looking for easily according to name information.</p>
-                    <a href="#" className="btn-search">Search</a>
+                    <a href="#" className="btn-search">Products</a>
                 </div>
 
                 <img src={searchImg} alt="" />
